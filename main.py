@@ -17,7 +17,7 @@ client = OpenAI(
 
 
 def ask_groq_to_generate_code(user_query, df):
-    sample = df.head(3).to_dict(orient="records")
+    sample = df.head(50).to_dict(orient="records")
     
     prompt = f"""
         You are a senior data analyst using Python (pandas + matplotlib). A user uploaded a dataset with these columns: {', '.join(df.columns)}.
