@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 import os
+os.environ.pop("SSL_CERT_FILE", None)
 
 from openai import OpenAI
 load_dotenv()
