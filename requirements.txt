@@ -10,4 +10,3 @@ sqlalchemy
 psycopg2 
 plotly 
 seaborn
-
