@@ -1,12 +1,12 @@
 streamlit
 pandas
 matplotlib
-mysql-connector-python
 openai
 python-dotenv
 openpyxl
 tabulate
-sqlalchemy 
-psycopg2 
-plotly 
+sqlalchemy
+plotly
 seaborn
+psycopg2-binary
+pymysql
