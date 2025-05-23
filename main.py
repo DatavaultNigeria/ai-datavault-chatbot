@@ -82,4 +82,4 @@ if uploaded_file:
                 exec(cleaned_code, {}, exec_namespace)
 
             except Exception as e:
-                st.error(f"Alert:\n\n{e} \n\n Kindly ignore the error message: Enter your prompt again and click 'Get Insights'")
+                st.error(f"Alert:\n\n{e} \n\n Kindly ignore the error message: Enter your question again and click 'Get Insights'")
